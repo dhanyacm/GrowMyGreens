@@ -1,2 +1,3 @@
-# GrowMyGreens
+# Grow My Greens
+
 A gardening website
