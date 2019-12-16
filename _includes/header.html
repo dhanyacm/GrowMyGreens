@@ -144,11 +144,15 @@
 		</div>
 		<!-- //banner -->
 		
-	{% endif %} 	
+	{% endif %} 		
+	
 		
 	</div>
-	<!-- //main -->
-     {% if !page.frontpage  %}  
+	<!-- //main -->	
+  	
+	{% if page.frontpage  %}  
+	 
+	{% else %} 	
    	<!-- page details -->
 	<div class="breadcrumb-mob-temsls py-1">
 		<div class="container">
@@ -161,7 +165,7 @@
 		</div>
 	</div>
 	<!-- //page details -->
-{% endif %} 
+      {% endif %} 
    
 
 
