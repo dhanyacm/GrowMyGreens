@@ -1,1 +1,7 @@
-
+---
+layout: default
+description: Grow my greens Growing Guide Page
+title: Growing Guide
+id: grow
+frontpage: false
+---
