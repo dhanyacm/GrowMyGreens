@@ -41,8 +41,7 @@
 
 {% if page.frontpage  %}  
 	<!-- main banner -->
-	<div class="main-top" id="home">
-  
+	<div class="main-top" id="home">  
      {% else %} 
      	<div class="main-banner-2" id="home">
      {% endif %}
@@ -149,7 +148,7 @@
 		
 	</div>
 	<!-- //main -->
-     
+     {% if !page.frontpage  %}  
    	<!-- page details -->
 	<div class="breadcrumb-mob-temsls py-1">
 		<div class="container">
@@ -162,7 +161,7 @@
 		</div>
 	</div>
 	<!-- //page details -->
-
+{% endif %} 
    
 
 
