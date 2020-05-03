@@ -67,11 +67,11 @@
 							<label for="drop" class="toggle toogle-2">Menu</label>
 							<input type="checkbox" id="drop" />
 							<ul class="menu">
-								<li class="active"><a href="index.html">Home</a></li>
+								<li {% if page.frontpage %} class="active" {% endif %} ><a href="index.html">Home</a></li>
 							
 								<!-- <li><a href="shop.html">Shop</a></li>  -->
-								<li><a href="plants.html">Plant Finder</a></li>
-								<li><a href="grow.html">Growing Guides</a></li>
+								<li {% if page.plants %} class="active" {% endif %}><a href="plants.html">Plant Finder</a></li>
+								<li {% if page.grow %} class="active" {% endif %}><a href="grow.html">Growing Guides</a></li>
 								
 								<!-- 
 							
@@ -91,7 +91,7 @@
 								 -->
 
 						
-								<li><a href="story.html">Stories</a></li>
+								<li {% if page.story %} class="active" {% endif %}><a href="story.html">Stories</a></li>
 							</ul>
 						</nav>
 					</div>
